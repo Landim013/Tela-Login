@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(45deg, rgb(252, 13, 232), rgb(236, 236, 22)); /*imagem degrade de fundo*/
+
+}
+div#login {
+    background-color: rgba(119, 23, 230, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px; /* espaço dentro do box*/
+    border-radius: 445px; /* ARRENDONDANDO O BOX(BORDAS)*/
+      
+}
+input {
+    padding: 13px;
+    border-color: rgb(171, 95, 243);
+    font-size: 15px;
+    top: -10px;
+}
+button {
+    background-color: rgb(176, 95, 243);
+    font-size: 13px;
+    position: relative;
+    padding: 13px;
+    width: 50%; /* espaço externo*/
+    left: 50px;
+    top: 20px;
+    color: white; 
+}
+button:hover{
+    background-color: rgb(252, 13,232);
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    position: relative;
+    left: 50px;
+    top: -14px;
+
+    
+}
